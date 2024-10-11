@@ -1,0 +1,82 @@
+/* src/components/Hero.css */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 20px;
+  background-color: #1e1e1e;
+  color: #fff;
+  min-height: 100vh; /* Full height */
+}
+
+.intro-text {
+  text-align: center;
+}
+
+.intro-text h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.intro-text h2 span {
+  color: #ffc107; /* Yellow color for the name */
+}
+
+.intro-text h3 {
+  font-size: 1.8rem;
+  margin: 10px 0;
+}
+
+.intro-text h3 .highlight {
+  color: #00e0ff; 
+}
+
+.cta-buttons {
+  margin-top: 20px;
+}
+
+.cta-buttons .btn {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 0 10px; 
+}
+
+.hire-me {
+  background-color: transparent;
+  color: #00e0ff;
+  border: 2px solid #00e0ff;
+}
+
+.resume {
+  background-color: transparent;
+  color: #ffc107;
+  border: 2px solid #ffc107;
+}
+
+.hire-me:hover {
+  background-color: #00e0ff;
+  color: #fff;
+}
+
+.resume:hover {
+  background-color: #ffc107;
+  color: #fff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+}
+
+.App {
+  text-align: center;
+}
